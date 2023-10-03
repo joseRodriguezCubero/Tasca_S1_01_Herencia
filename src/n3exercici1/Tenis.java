@@ -15,7 +15,7 @@ public class Tenis extends Noticia {
 
 	public Tenis(String titular) {
 		super(titular);
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public String getCompeticion() {

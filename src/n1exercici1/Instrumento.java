@@ -13,7 +13,7 @@ public abstract class Instrumento {
 
 	static {
 		contador = 10;
-		System.out.println("He iniciado el contador en 10");
+		System.out.println("He iniciado el contador en 10, este mensaje solo sale la primera vez que llamas al método contador.");
 	}
 
 	public String getNombre() {
