@@ -32,13 +32,6 @@ public class Main {
 						 * el método frenar se puede invocar desde la clase Coche. Sin necesidad de
 						 * instanciar ningún objeto.
 						 */
-
-		clio.frenar(); /*
-						 * el método frenar también se puede invocar desde la clase instanciada, aunque
-						 * esto ultimo no tiene sentido dado que es un atributo estático que pertenece a
-						 * la clase y no al objeto instanciado.
-						 */
-
 	}
 
 }
