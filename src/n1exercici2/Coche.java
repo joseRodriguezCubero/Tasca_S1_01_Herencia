@@ -3,11 +3,12 @@ package n1exercici2;
 public class Coche {
 
 	private static final String MARCA = "Renault";
-	private static String modelo;
+	private static String modelo = "Clio";
 	private final double POTENCIA;
 
-	public Coche(double pOTENCIA) {
+	public Coche() {
 		super();
+		double pOTENCIA = 220;
 		POTENCIA = pOTENCIA;
 	}
 
