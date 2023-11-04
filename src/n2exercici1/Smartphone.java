@@ -19,11 +19,4 @@ public class Smartphone extends Telefono implements Camara, Reloj {
 
 	}
 
-	@Override
-	public void llamar(String numTelefono) {
-		super.llamar(numTelefono);
-	}
-
-	
-
 }
