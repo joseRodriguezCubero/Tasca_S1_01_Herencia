@@ -6,7 +6,7 @@ public class Redactor {
 
 	private String nombre;
 	private String dni;
-	public static final int SALARIO = 1500;
+	public static int Salario = 1500;
 	private ArrayList<Noticia> noticias = new ArrayList<Noticia>();
 
 	public Redactor(String nombre, String dni) {
@@ -41,7 +41,7 @@ public class Redactor {
 	}
 
 	public static int getSalario() {
-		return SALARIO;
+		return Salario;
 	}
 
 	// falta hacer método para incrementar salario en un futuro.
