@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Coche clio = new Coche(200);
+		Coche clio = new Coche();
 
 		clio.acelerar();
 
